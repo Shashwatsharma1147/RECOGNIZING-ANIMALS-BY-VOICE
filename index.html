@@ -7,21 +7,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <div class="container"></div>
     <center>
     <div class="heading text-center">
     <h1>Animal Sound Identification</h1>
     <p>Note: Play sounds like barking or meowing</p>
 </div>
-<button onclick="Start()" class="btn btn-primary">Start</button>
+<button onclick="start_classification()" class="btn btn-primary">Start</button>
 <h2 id="sound">I can hear</h2>
 <img src="listen.gif">
 </center>
 </div>
+<script src="main.js"></script>
 </body>
 
 </html>

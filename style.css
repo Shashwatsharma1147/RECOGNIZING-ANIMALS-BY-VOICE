@@ -1,0 +1,23 @@
+.heading
+{
+    background-color: aquamarine;
+    margin-top: 0px;
+    top:0;
+}
+.heading p
+{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+body
+{
+    background-color: blanchedalmond;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.btn-primary
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+}
