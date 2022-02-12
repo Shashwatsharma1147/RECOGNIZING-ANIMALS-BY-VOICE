@@ -21,3 +21,23 @@ body
     font-family: 'Times New Roman', Times, serif;
     width: 200px;
 }
+h2
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.copyright_footer
+{
+    position: fixed;
+    color: crimson;
+    background-color:darkkhaki;
+    font-size: 30px;
+    width: 100%;
+    text-shadow: 5px 5px 5px darkblue;
+    bottom: 0;
+    line-height: 2;
+    text-align: center;
+}
